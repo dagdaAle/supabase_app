@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>731864922305-63btun2pl82jijdiac7k8ah5bgab8nt3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.731864922305-63btun2pl82jijdiac7k8ah5bgab8nt3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD3nX9kLsHzWhqmH9k4ADSAcDJVx9QWWOM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>731864922305</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.eventbuddy</string>
+	<key>PROJECT_ID</key>
+	<string>eventbuddy-ad847</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eventbuddy-ad847.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:731864922305:ios:2768a717a498ed0d15fc40</string>
+	<key>DATABASE_URL</key>
+	<string>https://eventbuddy-ad847-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

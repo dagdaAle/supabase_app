@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "731864922305",
+    "firebase_url": "https://eventbuddy-ad847-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "eventbuddy-ad847",
+    "storage_bucket": "eventbuddy-ad847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731864922305:android:65b381b60848423815fc40",
+        "android_client_info": {
+          "package_name": "com.example.eventbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731864922305-8ri3fodf8er52p28bqse8qkurfj5msn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSzHyNp6T_tXgoMNkLJ0oQ8yPIhfkyS8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731864922305-8ri3fodf8er52p28bqse8qkurfj5msn9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "731864922305-rrvd57jetda4ohu23us439sr77ml055g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.google"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
