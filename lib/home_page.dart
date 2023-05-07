@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import 'detail_page.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -9,6 +11,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  void _navigateToDetailPage(String title, String snippet) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => DetailPage(title: title, snippet: snippet),
+      ),
+    );
+  }
+
   final LatLng _veronaLatLng = const LatLng(45.4384, 10.9916);
   GoogleMapController? _mapController;
 
@@ -34,6 +45,9 @@ class _HomePageState extends State<HomePage> {
               title: 'Verona',
               snippet: 'City of love',
             ),
+            onTap: () {
+              _navigateToDetailPage('Verona', 'City of love');
+            },
           ),
         },
       ),
